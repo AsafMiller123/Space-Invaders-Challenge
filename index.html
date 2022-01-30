@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Space Invaders Challenge</title>
+    <link rel="stylesheet" href="css/main.css">
+    <h1 class="game-title">Space Invaders</h1>
+</head>
+
+<body onkeyup="handleKey(event)" onload="initGame()">
+    <!-- <h1>Collect those Balls</h1> -->
+    <div class="start button" onclick="initGame(this)">start</div>
+    <div class="restart button" onclick="restart(this)">Restart</div>
+    <div class="difficult-levels">
+        <div class="button" onclick="setDifficultLevel(this)">Easy</div>
+        <div class="button" onclick="setDifficultLevel(this)">Normal</div>
+        <div class="button" onclick="setDifficultLevel(this)">Hard</div>
+    </div>
+    <div class="game-statistics">
+        <h2 class="score">Score: <span>0</span></h2>
+        <h2 class="aliens-num">Aliens: <span>0</span></h2>
+        <h2 class="super-attacks">Super Attacks: <span>0</span></h2>
+    </div>
+    <h2 class="victory-or-game-over"></h2>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+    <script src="js/util.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/alien.js"></script>
+    <script src="js/hero.js"></script>
+</body>
+
+</html>

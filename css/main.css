@@ -1,0 +1,71 @@
+h1 {
+    color: #43b3b9;
+}
+
+body {
+    background-color: black;
+    color: gray;
+    justify-content: center;
+    display: grid;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.cell img {
+    width: 25px;
+    height: auto;
+}
+.floor {
+    border: 1px solid gray;
+    background-color: black
+}
+
+.ground {
+    background-color: brown;
+}
+
+.game-statistics {
+    display: flex;
+}
+
+.score {
+    color: #42d014;
+    margin-right: 50px;
+}
+
+.aliens-num {
+    color: #a11ea1;
+    margin-right: 50px;
+}
+
+.super-attacks {
+    color: #9a9edd;
+}
+
+.victory-or-game-over {
+    color: springgreen;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button {
+    height: 30px;
+    width: 50px;
+    font-size: 14px;
+    border: white 1px solid;
+    cursor: pointer;
+    color: white;
+    margin-right: 5px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    background: #8748a0;
+}
+
+.difficult-levels {
+    display: flex;
+}
